@@ -1,9 +1,9 @@
 package root
-import com.core.model.Core
-import com.adt.model.ADT1
+import com.adt2.model.ADT2
+import com.adt1.model.ADT1
 import shapeless.Generic
 
 object BothCompile {
   val gen1 = Generic[ADT1]
-  val gen2 = Generic[Core]
+  val gen2 = Generic[ADT2]
 }

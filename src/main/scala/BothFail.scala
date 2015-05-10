@@ -7,6 +7,6 @@ object BothFail  {
     "val gen1 = Generic[ADT1]"
   }
   illTyped {
-    "val gen2 = Generic[Core]"
+    "val gen2 = Generic[ADT2]"
   }
 }
